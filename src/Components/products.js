@@ -1,7 +1,7 @@
 import React from 'react';
 import products from '../data';
 import './products.css';
-
+import cart from "../ressources/shopingcart.svg"
 const Products = () => {
     return (
         <section className="products">
@@ -13,6 +13,7 @@ const Products = () => {
                         <h3 className="product-card__title">{product.name}</h3>
                         <p className="product-card__description">{product.description}</p>
                         <p className="product-card__price">${product.price}</p>
+                        <img className="product-card__kart" src={cart} alt="kart"></img>
                     </div>
                 ))}
             </div>

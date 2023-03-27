@@ -45,3 +45,6 @@
     font-size: 18px;
     font-weight: bold;
 }
+.product-card__kart:hover {
+    background-color: black;
+}
