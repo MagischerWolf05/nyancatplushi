@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+html{
+  overflow-x: hidden;
+}
+.background {
+  width: 200%;
+  height: 100%;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  animation: rainbow 2s linear infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes rainbow {
   from {
-    transform: rotate(0deg);
+    transform: translateX(0%);
   }
+
   to {
-    transform: rotate(360deg);
+    transform: translateX(-50%);
+  }
+}
+
+.nyancat {
+  width: auto;
+  height: auto;
+  max-width: calc(20% + min(10vw));
+  max-height: calc(20% + min(10vh));
+
+  /* You can replace this URL with your own image of nyancat */
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG");
+  background-size: cover;
+
+  position:absolute;
+  top:50%;
+  left:-5%;
+  transform:translateY(-50%);
+  animation:moving-cat .5s ease-in-out infinite alternate;
+
+}
+
+@keyframes moving-cat{
+  from{
+    left:-5%;
+  }
+  to{
+    left:-15%;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background {
+  width: 200%;
+  height: 100%;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: calc(10% + min(10vw));
+
+  /* Clip the text to the background */
+  background-clip:text;
+
+  /* Use the same background as before */
+background-color: white;
+  color: white;
+  /* Animate the background */
+  animation: rainbow-text .5s linear infinite;
+
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translateY(-50%);
+  animation:moving-title .5s ease-in-out infinite alternate;
+
+}
+
+@keyframes moving-title{
+  from{
+    left: 1%;
+  }
+  to{
+    left: 3%;
+  }
+}
+.nyancatBorder{
+  width: 100vw;
+}
+#nyancaticonid {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  color: white;
+  z-index: 1000;
+}
+
+@keyframes rainbow-text {
+  from{
+    background-position:left top;
+  }
+  to{
+    background-position:right top;
   }
 }
