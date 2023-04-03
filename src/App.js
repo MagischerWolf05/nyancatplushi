@@ -2,6 +2,7 @@ import React, { useState ,useEffect} from "react";
 import "./App.css";
 import nyancaticon from "./ressources/nyancat.svg"
 import Products from "./Components/products";
+import UserResponseList from "./Components/UserResponseList";
 export default function App() {
   // Create a state variable to store the ripple elements
   const [ripples, setRipples] = useState([]);
@@ -37,6 +38,7 @@ export default function App() {
         <img alt="nyancat" src={nyancaticon} id="nyancaticonid"></img>
     </div>
     <Products/>
+    <UserResponseList></UserResponseList>
     </div>
 );
 }
