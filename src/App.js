@@ -1,10 +1,12 @@
 import React, { useState ,useEffect} from "react";
 import "./App.css";
 import nyancaticon from "./ressources/nyancat.svg"
+import AOS from 'aos'
 import Products from "./Components/products";
 export default function App() {
   // Create a state variable to store the ripple elements
   const [ripples, setRipples] = useState([]);
+
 
   // Define a function to handle mouse move events on the container
   const handleMouseMove = (event) => {
@@ -25,6 +27,7 @@ export default function App() {
   };
     useEffect(() => {
         import('./Components/scrollHandler');
+        AOS.init();
     }, []);
   return (
 <div>

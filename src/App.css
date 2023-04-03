@@ -23,24 +23,6 @@ html{
   }
 }
 
-.nyancat {
-  width: auto;
-  height: auto;
-  max-width: calc(20% + min(10vw));
-  max-height: calc(20% + min(10vh));
-
-  /* You can replace this URL with your own image of nyancat */
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/e/ed/Nyan_cat_250px_frame.PNG");
-  background-size: cover;
-
-  position:absolute;
-  top:50%;
-  left:-5%;
-  transform:translateY(-50%);
-  animation:moving-cat .5s ease-in-out infinite alternate;
-
-}
-
 @keyframes moving-cat{
   from{
     left:-5%;
@@ -79,7 +61,7 @@ html{
   font-size: calc(10% + min(10vw));
 
   /* Clip the text to the background */
-  background-clip:text;
+  background-clip: text;
 
   /* Use the same background as before */
 background-color: white;
@@ -107,7 +89,6 @@ background-color: white;
   width: 100vw;
 }
 #nyancaticonid {
-  position: fixed;
   width: 100px;
   height: 100px;
   color: white;

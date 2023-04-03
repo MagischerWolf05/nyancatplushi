@@ -1,8 +1,8 @@
 const nyancaticon = document.getElementById('nyancaticonid');
 
 const updateSquarePosition = () => {
-    const scrollX = window.pageYOffset;
-    nyancaticon.style.left = `${scrollX + 20}px`;
+    const scrollX = (window.pageYOffset / window.outerHeight) * window.outerWidth * 0.9;
+    nyancaticon.style.marginLeft = `${scrollX}px`;
     nyancaticon.style.top = `${20}px`;
 };
 
