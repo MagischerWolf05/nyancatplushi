@@ -2,6 +2,7 @@ import React from 'react';
 import products from '../data';
 import './products.css';
 import cart from "../ressources/shopingcart.svg"
+
 const Products = () => {
     return (
         <section className="products">
