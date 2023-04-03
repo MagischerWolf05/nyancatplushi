@@ -1,7 +1,7 @@
 import React from 'react';
 import ResponsesComments from '../UserResponeData';
 import './UserResponseList.css';
-
+//https://codepen.io/josetxu/pen/NWyZWoJ list idea
 const UserResponse = () => {
     return (
 
