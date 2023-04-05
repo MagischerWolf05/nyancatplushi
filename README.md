@@ -1,6 +1,6 @@
 # Rückmeldung
 
-###Was lief gut?
+### Was lief gut?
 
 Wir konnten mehrere Animationen einbauen.
 Wir sind speziell stolz auf unser horizontales Scroll-Icon Nyancat welches sich mit dem Scrollen 
@@ -15,23 +15,23 @@ Das Zeitmanagement lief sehr gut und wir haben nicht an unnützen Dingen gebaste
 
 Wir hatten Spass an dieser Aufgabe und die grösse war perfekt um nichts gedankenlos zu kopieren sondern 
 wir haben uns wirklich mit den Themen auseinandergesetzt.
-###Was lief nicht so gut?
+### Was lief nicht so gut?
 
 Es war noch herausfordernd, herauszufinden was man alles für das Activate on Scroll braucht.
 
-###Was würden wir nächstes Mal anders machen?
+### Was würden wir nächstes Mal anders machen?
 
 Nächstes Mal würden wir uns besser informiern welche Npm Packages wir brauchen werden und wie
 sie funktionieren, da wir dort einige Frustrationen hatten.
 
 
-###Was haben wir gelernt? Was war neu? Wie wurde die Arbeit im Team aufgeteilt?
+### Was haben wir gelernt? Was war neu? Wie wurde die Arbeit im Team aufgeteilt?
 
 Wir haben beide Einiges bei CSS gelernt. Was auch noch spannend und sicher nützlich war, war die "manuelle" Animation mit der
 bewegenden Nyancat.
 
 
-###Notenvorschlag?
+### Notenvorschlag?
 
 Da wir eigentlich alle Requirements umsetzen konnten und nichts an unserer Website
 out of place oder buggy aussieht, würden wir uns ein "eher sehr gut" geben (>5.4)
