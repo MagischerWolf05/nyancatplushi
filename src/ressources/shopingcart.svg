@@ -5,7 +5,7 @@
         <text font-size="40" x="500" y="500" fill="red">Buy
         <animate attributeName="font-size"
         values="100;120;130;140;150;160;150;140;130;120;110"
-        dur="10s" repeatCount="indefinite">
+        dur="5s" repeatCount="indefinite">
 
         </animate>
         </text>

@@ -1,12 +1,12 @@
 import React from 'react';
 import products from '../data';
 import './products.css';
+import 'aos/dist/aos.css'
 import cart from "../ressources/shopingcart.svg"
 
 const Products = () => {
     return (
         <section className="products">
-            <h2 className="products__title">Our Plushis</h2>
             <div className="products__grid">
                 {products.map((product) => (
                     <div data-aos="fade-up" data-aos-duration="1000" key={product.id} className="product-card">

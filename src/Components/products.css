@@ -5,6 +5,7 @@
 .products__title {
     font-size: 36px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .products__grid {
@@ -46,7 +47,7 @@
 }
 
 .product-card__kart {
-    width: 30%;
+    width: 50%;
     bottom: 0;
 }
 

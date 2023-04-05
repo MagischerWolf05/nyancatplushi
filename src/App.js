@@ -29,6 +29,9 @@ export default function App() {
   };
     useEffect(() => {
         import('./Components/scrollHandler');
+    }, []);
+
+    useEffect(() => {
         AOS.init();
     }, []);
   return (
@@ -51,6 +54,7 @@ export default function App() {
             sizes="16x16"
             href="images/facivon/favicon-16x16.png"
         />
+        <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
         <link rel="manifest" href="images/facivon/site.webmanifest" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
@@ -60,8 +64,10 @@ export default function App() {
         {ripples}
               <h1 className="title">NYANCAT PLUSHI</h1>
       </div>
+    <div className="nyancatBorderPlaceholder"/>
     <div className="nyancatBorder">
         <img alt="nyancat" src={nyancaticon} id="nyancaticonid"></img>
+        <h2 className="products__title">Our Plushis</h2>
     </div>
     <Products/>
     <UserResponseList></UserResponseList>

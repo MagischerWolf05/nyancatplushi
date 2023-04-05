@@ -23,14 +23,7 @@ html{
   }
 }
 
-@keyframes moving-cat{
-  from{
-    left:-5%;
-  }
-  to{
-    left:-15%;
-  }
-}
+
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 .container {
@@ -85,9 +78,38 @@ background-color: white;
     left: 3%;
   }
 }
+
 .nyancatBorder{
-  width: 100vw;
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  margin-bottom: 30px;
 }
+
+.nyancatBorder.stuck {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.nyancatBorderPlaceholder {
+  display: none;
+  height: 180px;
+  margin-bottom: 30px;
+}
+
+@keyframes moving-cat{
+  from{
+    left:-5%;
+  }
+  to{
+    left:-15%;
+  }
+}
+
 #nyancaticonid {
   width: 100px;
   height: 100px;
